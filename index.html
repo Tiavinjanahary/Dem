@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Démineur Moderne Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <div class="game-container">
+        <div class="toolbar">
+            <select id="level-select">
+                <option value="easy">Débutant (10x10)</option>
+                <option value="medium">Intermédiaire (16x16)</option>
+                <option value="hard">Expert (22x22)</option>
+            </select>
+            <button id="theme-toggle" title="Changer le thème">🌓 Mode</button>
+        </div>
+
+        <div class="header">
+            <div class="stat-box">
+                <span class="label">MINES</span>
+                <span id="mine-count">0</span>
+            </div>
+            <button id="reset-btn" class="smiley">NOUVEAU JEU</button>
+            <div class="stat-box">
+                <span class="label">TEMPS</span>
+                <span id="timer">00:00</span>
+            </div>
+        </div>
+
+        <div id="board" class="board"></div>
+
+        <div class="footer-controls">
+            <div class="mode-switch-container">
+                <span class="mode-icon">⛏️</span>
+                <label class="switch">
+                    <input type="checkbox" id="mode-switch">
+                    <span class="slider"></span>
+                </label>
+                <span class="mode-icon">🚩</span>
+            </div>
+            <p id="mode-text">Mode : Creuser (Clic gauche)</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
