@@ -1,0 +1,16 @@
+{
+  "name": "Démineur Pro Moderne",
+  "short_name": "Démineur",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#38bdf8",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/5219/5219410.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
